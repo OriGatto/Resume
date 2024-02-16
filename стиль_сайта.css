@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background: #eee;
+    width: 900px;
+    margin: auto;
+}
+
+.photo {
+    border-radius: 30px;
+    box-shadow: 10px 10px 14px;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.zag1 {
+    padding: 10px;
+    background: lightgray;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-left: 353px;
+    padding-right: 345px;
+}
+
+.text1 {
+    width: 400px;
+    margin-left: 260px;
+    margin-right: 235px;
+}
+
+.text2 {
+    width: 400px;
+    margin-left: 275px;
+    margin-right: 235px;
+}
+
+.zag2 {
+    padding: 10px;
+    background: lightgray;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding-left: 377px;
+    padding-right: 367px;
+}
+
+.silka{
+    color: hsl(231, 100%, 51%);
+    text-decoration: none;
+}
+
+.silka:hover{
+    color: black;
+}
+
+.combsilka {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.zag3 {
+    padding: 10px;
+    background: lightgray;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-left: 405px;
+    padding-right: 400px;
+}
+
+.spiski {
+    margin-left: 350px;
+    margin-right: 320px;
+}
+
+.zag4 {
+    padding: 10px;
+    background: lightgray;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-left: 405px;
+    padding-right: 390px;
+}
+
+.work {
+    margin-left: 285px;
+    margin-right: 200px;
+}
+
+.zag5 {
+    padding: 10px;
+    background: lightgray;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-left: 380px;
+    padding-right: 376px;
+}
+
+.sviaz {
+    width: 263px;
+    margin-left: 320px;
+    margin-right: 315px;
+}
+
+.btn {
+    width: 260px;
+    margin-left: 320px;
+    margin-right: 340px;
+    cursor: pointer;
+    font-family: inherit;
+    margin-bottom: 10px;
+}
+
+
+@media(max-width: 500px){
+    .body{
+        font-size: 1.5rem;
+        padding: 10px;
+        text-align: center;
+    }
+}
